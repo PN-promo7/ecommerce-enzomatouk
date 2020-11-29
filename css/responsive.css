@@ -1,0 +1,61 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  body, html {
+    width: 100%;
+  }
+
+  section {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Les catégories */
+  .linkcategory {
+    background-color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  /* Les articles */
+  .row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .col {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+/* Promotion */
+.promotion {
+  width: 100%;
+  height: 100%;
+}
+  .promotion p {
+    margin-top: 0px;
+    font-size: 1.2rem;
+  }
+
+/* La newsletter */
+ .newsletter p {
+   font-size: 1rem;
+ }
+  /* Styles */
+}
